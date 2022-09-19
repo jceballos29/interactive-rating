@@ -1,0 +1,16 @@
+/** @format */
+
+.Attribution {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+	.Attribution {
+		flex-direction: column;
+		gap: 0;
+	}
+}
